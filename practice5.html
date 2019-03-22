@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			body
+				{
+					background-color:#F6EBD6	;
+					color:#000000;
+				}
+			input
+				{
+					margin-bottom : 10px;
+				}
+		</style> 
+	</head>
+	<body>
+		<h1>ONLINE ADMISSION FORM</h1>
+		<p><span style= "color:red;">* Mendatory Fields</span></p>
+		<form>
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label><span style= "color:red;">*</span>first name</label>
+				<input type= "text" name="_name">
+				<label><span style= "color:red;">*</span>last name</label>
+				<input type= "text" name="_name"><br>
+				<label><span style= "color:red;">*</span>NIC/B Form</label>
+				<input type= "text" name="nic"><br>
+				<label><span style= "color:red;">*</span>date of birth</label>
+				<input type= "date" name="dob"><br>
+				<label><span style= "color:red;">*</span>gender</label>
+				<input type= "radio" name="gen" value ="male"> male
+				<input type= "radio" name="gen" value ="female"> female<br>
+				<label><span style= "color:red;">*</span>Mailing Address</label>
+				<input type= "email" name="mail"><br>
+				<label><span style= "color:red;">*</span>Permanent Address</label>
+				<input type= "text" name="p-add"><br>
+				<label><span style= "color:red;">*</span>Domicile District</label>
+				<select name="domicile" >
+					<option value="sindh">Sindh</option>
+						<option value="panjab">Panjab</option>
+					<option value="balochistan">Balochistan</option>
+					<option value="KPK">KPK</option>
+				</select><br>
+				<label><span style= "color:red;">*</span>Mobilephone Number</label>
+				<input type= "text" name="m_num"><br>
+				
+			</fieldset>
+			<fieldset>
+				<legend>Academic Information</legend>
+				<table>
+					<tr>
+						<th>Level</th>
+						<th>Year</th>
+						<th>Grade / Division</th>
+						<th>Major Subjects</th>
+						<th>Board / University</th>
+					</tr>
+					<tr>
+						<td>Matriculation</td>
+						<td><input type= "number" name="year"></td>
+						<td><input type= "text" name="grade"></td>
+        					<td><input type= "text" name="sub"></td>
+						<td><input type= "text" name="uni" ></td>
+					</tr>
+					<tr>
+						<td>Intermediate</td>
+						<td><input type= "number" name="year"></td>
+						<td><input type= "text" name="grade"></td>
+        					<td><input type= "text" name="sub"></td>
+						<td><input type= "text" name="uni" ></td>
+					</tr>
+					<tr>
+						<td>Graduation</td>
+						<td><input type= "number" name="year"></td>
+						<td><input type= "text" name="grade"></td>
+        					<td><input type= "text" name="sub"></td>
+						<td><input type= "text" name="uni" ></td>
+					</tr>
+					<tr>
+						<td>MS / MPhil</td>
+						<td><input type= "number" name="year"></td>
+						<td><input type= "text" name="grade"></td>
+        					<td><input type= "text" name="sub"></td>
+						<td><input type= "text" name="uni" ></td>
+					</tr>
+				</table>
+				
+			</fieldset>
+			<fieldset>
+				<table>
+				
+					<tr>
+						<td>Course Information</td>
+						<td><select name="prog" >
+							<option value="cs">Computer Science</option>
+							<option value="se">Software Engineering</option>
+							
+						</select></td>
+						<td><label>Semester</label>
+						<input type= "number" name="sem"value="1" min="1" max="8" required><br>
+
+						</td>
+        					
+					</tr>
+					<tr>
+						<td> course 1</td>
+						<td>
+						<select name="course" >
+							<option value="0001">0001</option>
+							<option value="0002">0002</option>
+							<option value="0003">0003</option>
+							<option value="0004">0004</option>
+							<option value="0005">0005</option>
+							<option value="0006">0006</option>
+							<option value="0007">0007</option>
+							<option value="0008">0008</option>
+						</select><br>
+						</td>
+						<td> course 2</td>
+						<td>
+						<select name="course" >
+							<option value="0011">0011</option>
+							<option value="0012">0012</option>
+							<option value="0013">0013</option>
+							<option value="0014">0014</option>
+							<option value="0015">0015</option>
+							<option value="0016">0016</option>
+							<option value="0017">0017</option>
+							<option value="0018">0018</option>
+						</select><br>
+						</td>
+        					
+					</tr>
+					<tr>
+						<td> course 3</td>
+						
+						<td>
+						<select name="course" >
+							<option value="0021">0021</option>
+							<option value="0022">0022</option>
+							<option value="0023">0023</option>
+							<option value="0024">0024</option>
+							<option value="0025">0025</option>
+							<option value="0026">0026</option>
+							<option value="0027">0027</option>
+							<option value="0028">0028</option>
+						</select><br>
+						</td>
+						<td> course 4</td>
+						<td>
+						<select name="course" >
+							<option value="0031">0031</option>
+							<option value="0032">0032</option>
+							<option value="0033">0033</option>
+							<option value="0034">0034</option>
+							<option value="0035">0035</option>
+							<option value="0036">0036</option>
+							<option value="0037">0037</option>
+							<option value="0038">0038</option>
+						</select><br>
+						</td>
+					</tr>
+					<tr>
+						<td> course 5</td>
+						
+						<td>
+						<select name="course" >
+							<option value="0041">0041</option>
+							<option value="0042">0042</option>
+							<option value="0043">0043</option>
+							<option value="0044">0044</option>
+							<option value="0045">0045</option>
+							<option value="0046">0046</option>
+							<option value="0047">0047</option>
+							<option value="0048">0048</option>
+						</select><br>
+						</td>
+						<td> course 6</td>
+						<td>
+						<select name="course" >
+							<option value="0051">0051</option>
+							<option value="0052">0052</option>
+							<option value="0053">0053</option>
+							<option value="0054">0054</option>
+							<option value="0055">0055</option>
+							<option value="0056">0056</option>
+							<option value="0057">0057</option>
+							<option value="0058">0058</option>
+						</select><br>
+						</td>
+					</tr>
+					
+					<tr>
+						<td> course 7</td>
+						<td>
+						<select name="course" >
+							<option value="0061">0061</option>
+							<option value="0062">0062</option>
+							<option value="0063">0063</option>
+							<option value="0064">0064</option>
+							<option value="0065">0065</option>
+							<option value="0066">0066</option>
+							<option value="0067">0067</option>
+							<option value="0068">0068</option>
+						</select><br>
+						</td>
+						<td> course 8</td>
+						<td>
+						<select name="course" >
+							<option value="0071">0071</option>
+							<option value="0072">0072</option>
+							<option value="0073">0073</option>
+							<option value="0074">0074</option>
+							<option value="0075">0075</option>
+							<option value="0076">0076</option>
+							<option value="0077">0077</option>
+							<option value="0078">0078</option>
+						</select><br>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<input type ="submit" name="submit" value="submit">
+		</form>
+	</body>
+</html>
